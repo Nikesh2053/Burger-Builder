@@ -30,8 +30,8 @@ import WithErrorHandler from '../../hoc/WithErrorHandler/WithErrorHandler'
               {this.state.orders.map(order=>(
                   <Order 
                     key={order.id}
-                    ingredients={order.ingredient}
-                    price={order.price}/>
+                    ingredients={order.ingredients}
+                    price={order.prices}/>
               ))}
 
             </div>
