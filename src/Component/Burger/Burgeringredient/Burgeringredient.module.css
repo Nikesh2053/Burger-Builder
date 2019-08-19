@@ -1,0 +1,111 @@
+.breadBottom{
+    height:15%; 
+    width:80%;
+    background:linear-gradient(#bc581e,#e27b36);
+    border-radius:0 0 50px 50px;
+    box-shadow:inset -15px 0 #c15711;
+    margin:2% auto;
+
+
+}
+.BreadTop{
+    height:16%; 
+    width:80%;
+    background:linear-gradient(#bc581e,#e27b36);
+    border-radius:50px 50px 0 0;
+    box-shadow:inset -15px 0  #c15711;;
+    margin:2% auto;
+    position: relative;
+
+}
+.Seeds1{
+    height:8%; 
+    width:6%;
+    position: absolute;
+    background-color:rgb(190, 64, 64);
+    left:25%;
+    top:45%;
+    border-radius: 50%;
+    transform: rotate(-15deg);
+    box-shadow: inset -2px -3px lightgrey
+}
+.Seeds1:after{
+    content:'';
+    height:100%; 
+    width:100%;
+    position: absolute;
+    background-color:white;
+    left:-170%;
+    top:-260%;
+    border-radius: 50%;
+    transform: rotate(60deg);
+    box-shadow: inset -1px -2px lightgrey
+}
+.Seeds1:before{
+    content:'';
+    height:100%; 
+    width:100%;
+    position: absolute;
+    background-color: white;
+    left:180%;
+    top:50%;
+    border-radius: 40%;
+    transform: rotate(60deg);
+    box-shadow: inset -1px -3px lightgrey
+}
+.Seeds2{
+    height:6%; 
+    width:8%;
+    position: absolute;
+    background-color: white;
+    left:64%;
+    top:50%;
+    border-radius: 40%;
+    transform: rotate(-8deg);
+    box-shadow: inset -3px 0 lightgrey
+
+}
+
+.Seeds2:before{
+    content:'';
+    height:100%; 
+    width:100%;
+    position: absolute;
+    background-color: white;
+    left:150%;
+    top:-130%;
+    border-radius: 40%;
+    transform: rotate(40deg);
+    box-shadow: inset 1px 3px lightgrey
+}
+.Meat{
+    height:7%; 
+    width:80%;
+    background:linear-gradient(rgb(226, 99, 99), rgb(219, 48, 48));
+    margin:2% auto;
+    border-radius: 15px;
+
+}
+.Cheese{
+    height:3%; 
+    width:90%;
+    background:linear-gradient(yellow, yellow);
+    margin:2% auto;
+    border-radius: 20px;
+
+}
+.Salad{
+    height:5%; 
+    width:90%;
+    background:linear-gradient(green, lightgreen);
+    margin:2% auto;
+    border-radius: 20px;
+
+}
+.Bacon{
+    height:4%; 
+    width:80%;
+    background:linear-gradient(orange,orange);
+    margin:2% auto;
+
+}
